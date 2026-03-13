@@ -1,0 +1,21 @@
+# Maven
+target/
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/
+
+# Screenshots
+screenshots/
+
+# IDE files
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

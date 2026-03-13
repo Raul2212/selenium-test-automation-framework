@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [AutomationSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listeners.TestListener"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="FirefoxTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginTest"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="loginBeforeCartTests"/>
+          <include name="addProductToCartTest"/>
+          <include name="completeEndToEndFlowTest"/>
+          <include name="removeProductFromCartTest"/>
+        </methods>
+      </class> <!-- tests.CartTest -->
+    </classes>
+  </test> <!-- FirefoxTests(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+  <test thread-count="3" parallel="tests" name="EdgeTests(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginTest"/>
+          <include name="logoutTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginBeforeCartTests"/>
+          <include name="tearDown"/>
+          <include name="completeEndToEndFlowTest"/>
+          <include name="removeProductFromCartTest"/>
+        </methods>
+      </class> <!-- tests.CartTest -->
+    </classes>
+  </test> <!-- EdgeTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->

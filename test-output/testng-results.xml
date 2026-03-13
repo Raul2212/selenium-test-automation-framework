@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-13T20:00:49 IST" name="AutomationSuite" finished-at="2026-03-13T20:02:01 IST" duration-ms="72354">
+    <groups>
+    </groups>
+    <test started-at="2026-03-13T20:00:49 IST" name="ChromeTests" finished-at="2026-03-13T20:02:01 IST" duration-ms="72354">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:00:49 IST" name="setUp" finished-at="2026-03-13T20:00:54 IST" duration-ms="5586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logoutTest()[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:00:54 IST" name="logoutTest" finished-at="2026-03-13T20:00:56 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:00:56 IST" name="tearDown" finished-at="2026-03-13T20:00:57 IST" duration-ms="518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:00:57 IST" name="setUp" finished-at="2026-03-13T20:00:59 IST" duration-ms="2702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:00:59 IST" name="verifyLoginTest" data-provider="loginData" finished-at="2026-03-13T20:01:00 IST" duration-ms="1126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[success]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:00 IST" name="tearDown" finished-at="2026-03-13T20:01:01 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:01 IST" name="setUp" finished-at="2026-03-13T20:01:03 IST" duration-ms="2036" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:03 IST" name="verifyLoginTest" data-provider="loginData" finished-at="2026-03-13T20:01:04 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wrong123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:04 IST" name="tearDown" finished-at="2026-03-13T20:01:04 IST" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:04 IST" name="setUp" finished-at="2026-03-13T20:01:07 IST" duration-ms="2278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:07 IST" name="verifyLoginTest" data-provider="loginData" finished-at="2026-03-13T20:01:07 IST" duration-ms="928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@18245eb0]" started-at="2026-03-13T20:01:07 IST" name="tearDown" finished-at="2026-03-13T20:01:08 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CartTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:08 IST" name="setUp" finished-at="2026-03-13T20:01:10 IST" duration-ms="2233" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginBeforeCartTests()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:10 IST" name="loginBeforeCartTests" finished-at="2026-03-13T20:01:11 IST" duration-ms="1211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeCartTests -->
+        <test-method signature="addProductToCartTest()[pri:1, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:11 IST" name="addProductToCartTest" finished-at="2026-03-13T20:01:12 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductToCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:12 IST" name="tearDown" finished-at="2026-03-13T20:01:12 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:12 IST" name="setUp" finished-at="2026-03-13T20:01:13 IST" duration-ms="1313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginBeforeCartTests()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:13 IST" name="loginBeforeCartTests" finished-at="2026-03-13T20:01:15 IST" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeCartTests -->
+        <test-method signature="removeProductFromCartTest()[pri:2, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:15 IST" name="removeProductFromCartTest" finished-at="2026-03-13T20:01:36 IST" duration-ms="20494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeProductFromCartTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:36 IST" name="tearDown" finished-at="2026-03-13T20:01:36 IST" duration-ms="553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:36 IST" name="setUp" finished-at="2026-03-13T20:01:39 IST" duration-ms="2441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="loginBeforeCartTests()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:39 IST" name="loginBeforeCartTests" finished-at="2026-03-13T20:01:40 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginBeforeCartTests -->
+        <test-method signature="completeEndToEndFlowTest()[pri:3, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:01:40 IST" name="completeEndToEndFlowTest" finished-at="2026-03-13T20:02:00 IST" duration-ms="20785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completeEndToEndFlowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CartTest@274872f8]" started-at="2026-03-13T20:02:00 IST" name="tearDown" finished-at="2026-03-13T20:02:01 IST" duration-ms="586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CartTest -->
+    </test> <!-- ChromeTests -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
