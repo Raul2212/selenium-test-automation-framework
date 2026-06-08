@@ -5,12 +5,6 @@ target/
 logs/
 *.log
 
-# Reports
-reports/
-
-# Screenshots
-screenshots/
-
 # IDE files
 .classpath
 .project
